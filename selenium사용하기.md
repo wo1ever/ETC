@@ -1,4 +1,6 @@
-₩₩₩
+# selenium을 사용해보자
+
+```
 ---------------------------------------------------------------------------
 WebDriverException                        Traceback (most recent call last)
 <ipython-input-48-d0e1bd25939b> in <module>()
@@ -20,13 +22,13 @@ WebDriverException                        Traceback (most recent call last)
 
 WebDriverException: Message: Can not connect to the Service /Users/seyoung/Downloads/chromedriver
 
-₩₩₩
+```
 
 자꾸 이런 오류가 나는데, 도대체 왜인지 모르겠다. 분명 경로는 확실한데, 권한이 없어서 그런 것 같지만 다른것들을 해도 잘 안된다 T^T
 
 1. 몇 시간동안 거의 모든 google관련 문서를 보았다. 그 결과 내가 할 수 있는 모든 일을 했다는 느낌이 들었다.
 2. 결국 은정님과 데잇걸즈 분들께 질문을 남겼다.
-3. 은정님께서 해보고 결과를 알려달라고 보내주셨던 것 중에, ₩vi etc/hosts₩를 실행했을 때 아무것도 안나온다는 문제점 발견
+3. 은정님께서 해보고 결과를 알려달라고 보내주셨던 것 중에, `vi etc/hosts`를 실행했을 때 아무것도 안나온다는 문제점 발견
 4. hosts파일 덮어씌우니 해결되었다!
 
 이렇게 간단한것을.. 몇 시간동안 엄청나게 많은 것을 해보았다고 한다...!  
